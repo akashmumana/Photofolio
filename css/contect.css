@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.avalilbal {
+
+    background: #27a776;
+    font-weight: 400;
+    font-size: 14px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    color: #fff;
+    margin-top: 30px;
+
+}
+
+.icon {
+    color: #2e8861;
+    font-size: 50px;
+    border-radius: 50%;
+    background: #27a776;
+    padding: 5px 10px;
+
+}
+.form-div{
+    background: #0d100f;
+    
+}
+.form-div::placeholder{
+    color: #fff;
+}

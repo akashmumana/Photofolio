@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.clearfix {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.avalilbal {
+
+    background: #27a776;
+    font-weight: 400;
+    font-size: 14px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    color: #fff;
+    margin-top: 30px;
+
+}
+.card{
+    box-sizing: content-box;
+    padding: 30px;
+    margin: 30px 40px;
+    background: #fff;
+    min-height: 320px;
+    display:flex ;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.cardimg{
+    width:90px;
+    border-radius: 50%;
+}
+
+.box-1 {
+    padding: 40px 30px 0px 40px;
+    max-width: 200px;
+    position: relative;
+    width: 100%;
+    background: #2e3133;
+
+
+
+
+}
+
+.box-1 p {
+    width: 550px;
+    font-size: 20px;
+    white-space: wrap;
+}
+
+.boxicon::before {
+    display: inline-block;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -5px;
+    color: #27a776;
+    font-size: 30px;
+
+}
+
+.box-2 {
+    position: absolute;
+    z-index: 1;
+    top: 293rem;
+    left: 192px;
+
+
+}
+
+.boximg {
+    width: 90px;
+    border-radius: 50%;
+    border: 6px solid #2e3133;
+    display: flex;
+
+}
+
+.Project {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: var(--color-primary);
+    left: 0;
+    bottom: 0;
+}
+
+.icon-box {
+    color: #fff;
+    font-size: 30px;
+    border-radius: 50%;
+    background: #27a776;
+    padding: 6px 10px;
+}
+
+.Services-box {
+    padding: 50px 30px;
+    transition: all ease-in-out 0.4s;
+    height: 100%;
+    overflow: hidden;
+    z-index: 1;
+    background: #1d1f20;
+}
+
+.Services-box::before {
+    content: "";
+    position: absolute;
+    background: #1d1f20;
+    top: -200px;
+    transition: all 0.3s;
+    z-index: -1;
+}
+
+.Services-box:hover {
+    background: #27a776;
+    color: #fff;
+}
+
+.prices::after {    
+    content: "";
+    width: 120px;
+    height: 3px;
+    display: inline-block;
+    background: #5bd9a9;
+    margin: 4px 4px;
+}
+
+.prices-border {
+    border-bottom: 1px dashed #d0d5d9;
+    width: 100%;
+    margin-top: 15px;
+
+}
